@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="6dip">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:id="@+id/facebk"
+                style="@style/HomeButton"
+                android:text="FACEBOOK"
+                android:drawableTop="@drawable/ic_fac"/>
+
+            <Button android:id="@+id/whatup"
+                style="@style/HomeButton"
+                android:text="whatsup"
+                android:drawableTop="@drawable/ic_whatup"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+            <Button android:id="@+id/twit"
+                style="@style/HomeButton"
+                android:text="Twitter"
+                android:drawableTop="@drawable/twitter"/>
+
+            <Button android:id="@+id/web"
+                style="@style/HomeButton"
+                android:text="Web"
+                android:drawableTop="@drawable/web"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

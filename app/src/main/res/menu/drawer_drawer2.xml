@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home" android:icon="@drawable/ic_home"
+            android:title="HOME" />
+        <item android:id="@+id/Radio" android:icon="@drawable/ic_radio"
+            android:title="RADIO" />
+        <item android:id="@+id/Program" android:icon="@drawable/ic_prog"
+            android:title="PROGRAM SCHEDULE" />
+        <item android:id="@+id/Network" android:icon="@drawable/ic_social"
+            android:title="SOCIAL NETWORK" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="SHARE" />
+            <item android:id="@+id/develp" android:icon="@drawable/ic_devlop"
+                android:title="DEVELOPER" />
+        </menu>
+    </item>
+
+</menu>

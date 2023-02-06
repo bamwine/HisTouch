@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="6dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView android:id="@+id/facebk"
+                style="@style/HomeButton"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:src= "@drawable/deve"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+
+            <TextView android:id="@+id/web"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:text="\n\n\t\t You can contact Me on \n\n
+                    256789105998\t\t\n\n
+                    256705727318\n\n
+                    "
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
